@@ -8,6 +8,11 @@ public class MergeDemo : MonoBehaviour
         
     }
 
+    void HelloWorld()
+    {
+        Debug.Log("Hello, world!");
+    }
+
     // Update is called once per frame
     void Update()
     {
