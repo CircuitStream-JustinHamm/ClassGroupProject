@@ -22,24 +22,4 @@ public class MergeDemo : MonoBehaviour
     {
         
     }
-
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        JustinsCollisionFunction(collision);
-        BrandensCollisionFunction(collision);
-    }
-
-    void JustinsCollisionFunction(Collision2D col)
-    { /* i don't know what i'm doing */ }
-
-    void BrandensCollisionFunction(Collision2D collision)
-    {
-        Instantiate(explosionEffect, transform.position, transform.rotation);
-        Destroy(gameObject);
-
-        restartButton.style.display = DisplayStyle.Flex;
-
-        Debug.Log("It Explodedededed");
-    }
 }
