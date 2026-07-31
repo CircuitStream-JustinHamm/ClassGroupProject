@@ -9,7 +9,7 @@ public class MergeDemo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        HelloWorld();
     }
 
     void HelloWorld()
