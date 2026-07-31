@@ -29,5 +29,7 @@ public class MergeDemo : MonoBehaviour
         Destroy(gameObject);
 
         restartButton.style.display = DisplayStyle.Flex;
+
+        Debug.Log("It Explodedededed");
     }
 }
